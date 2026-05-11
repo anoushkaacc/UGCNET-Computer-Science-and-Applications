@@ -138,3 +138,108 @@
 | Physical Data Independence | Change internal schema without affecting conceptual schema |
 
 > External schema changes may still occur in some cases.
+
+# Data Models
+
+| Model | Description |
+|---|---|
+| Relational Model | Data organized in the form of relations (tables) |
+| Hierarchical Model | Tree-like structure with one-to-many relationship |
+| Network Model | Supports many-to-many relationships |
+| Object-Oriented Model | Data represented as objects |
+| ER Model | Represents entities and relationships |
+
+---
+
+# ER (Entity Relationship) Model
+
+## Entity
+
+| Term | Description |
+|---|---|
+| Entity | Anything that exists in the real world |
+| Types | Can exist physically or conceptually |
+
+---
+
+## Attributes
+
+| Term | Description |
+|---|---|
+| Attribute | Property that defines an entity |
+| Attribute Value | Particular value associated with an entity |
+
+---
+
+# Types of Attributes
+
+## 1. Composite vs Simple Attribute
+
+| Type | Description | Representation |
+|---|---|---|
+| Composite Attribute | Can be divided into subparts | `( )` |
+| Simple Attribute | Atomic and non-divisible | Single value |
+
+---
+
+## 2. Single-valued vs Multi-valued Attribute
+
+| Type | Description | Representation |
+|---|---|---|
+| Single-valued Attribute | Holds only one value | Single value |
+| Multi-valued Attribute | Holds multiple values | `{ }` |
+
+---
+
+## 3. Stored vs Derived Attribute
+
+| Type | Description |
+|---|---|
+| Stored Attribute | Fixed and directly stored |
+| Derived Attribute | Obtained from another attribute |
+
+---
+
+## 4. Complex Attribute
+
+| Type | Description | Representation |
+|---|---|---|
+| Complex Attribute | Both composite and multivalued | `{(_,_,_)}` |
+
+---
+
+# Relationship Set
+
+## Degree of Relationship Set
+
+| Degree | Description |
+|---|---|
+| Unary | One entity set participates |
+| Binary | Two entity sets participate |
+| Ternary | Three entity sets participate |
+
+> Most relationships are binary.
+
+---
+
+# Cardinality Ratios for Binary Relationships
+
+| Cardinality | Meaning |
+|---|---|
+| 1 : 1 | One entity related to one entity |
+| 1 : N | One entity related to many entities |
+| N : 1 | Many entities related to one entity |
+| N : M | Many-to-many relationship |
+
+---
+
+# Participation Constraints
+
+| Type | Description | Representation |
+|---|---|---|
+| Total Participation | Every entity participates in at least one relationship | Double line |
+| Partial Participation | Some entities may not participate in any relationship | Single line |
+
+---
+> Total participation implies existence dependency.
+> Partial participation allows independent existence of entities.
