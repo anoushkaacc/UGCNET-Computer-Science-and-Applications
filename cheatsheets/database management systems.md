@@ -243,3 +243,67 @@
 ---
 > Total participation implies existence dependency.
 > Partial participation allows independent existence of entities.
+
+# Concept of Keys
+
+| Key Type | Description |
+|---|---|
+| Super Key | Set of attributes that uniquely identifies every tuple in a relation |
+| Candidate Key | Minimal super key |
+| Primary Key (PK) | Candidate key selected by DBA |
+| Alternate Key | Candidate keys not chosen as primary key |
+| Unique Key | Uniquely identifies tuples |
+
+---
+
+# Weak Entity Set
+
+| Concept | Description |
+|---|---|
+| Weak Entity | Entity set without a unique key attribute |
+| Owner Entity | Strong entity associated with weak entity |
+| Strong Entity | Entity having a primary key |
+| Identifying Relationship | Relationship connecting strong and weak entity |
+
+---
+
+# Properties of Weak Entity Set
+
+| Property | Description |
+|---|---|
+| Participation | Always total participation |
+| Dependency | Weak entity depends on strong entity |
+| Relationship Ratio | One strong entity can have many weak entities |
+| Cardinality | `1 : N` relationship |
+
+---
+> Every strong entity need not be an owner entity.
+> Weak entities cannot exist independently.
+> Weak entities are identified using strong entity keys.
+
+---
+
+# Discriminator Attribute / Partial Key
+
+| Term | Description |
+|---|---|
+| Discriminator Attribute | Attribute that uniquely identifies weak entities under a strong entity |
+| Partial Key | Another name for discriminator attribute |
+
+---
+
+# Primary Key Formation of Weak Entity
+
+The primary key of a weak entity is formed using:
+
+$$
+PK_{weak} = \{PK_{strong},\ Partial\ Key\}
+$$
+
+Example:
+
+```text
+Employee(Emp_ID)
+Dependent(Name)
+
+PK(Dependent) = {Emp_ID, Name}
