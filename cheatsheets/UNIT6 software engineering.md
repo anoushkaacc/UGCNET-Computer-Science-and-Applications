@@ -1,5 +1,5 @@
-# 📘 UGC NET – Unit 6: Software Engineering
-> Concise revision notes covering all key topics for UGC NET Computer Science examination.
+#  UGC NET – Unit 6: Software Engineering
+
 
 ---
 
