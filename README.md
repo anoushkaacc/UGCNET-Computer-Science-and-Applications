@@ -64,28 +64,43 @@ Qualifying UGC NET provides opportunities for:
 
 ---
 
-## Examination Pattern
+<h2>Examination Overview</h2>
 
-| Paper     | Questions |   Marks |
-| --------- | --------: | ------: |
-| Paper I   |        50 |     100 |
-| Paper II  |       100 |     200 |
-| **Total** |   **150** | **300** |
+<table>
+<tr>
+<td valign="top" width="55%">
 
-* **Duration:** 3 Hours
-* **Mode:** Computer-Based Test (CBT)
-* **Question Type:** Multiple Choice Questions (MCQs)
-* **Negative Marking:** None
+<b>Paper Distribution</b>
 
----
+| Paper | Questions | Marks |
+|-------|----------:|------:|
+| Paper I | 50 | 100 |
+| Paper II | 100 | 200 |
+| **Total** | **150** | **300** |
 
-## Marking Scheme
+</td>
 
-| Response         | Marks |
-| ---------------- | ----: |
-| Correct Answer   |    +2 |
-| Incorrect Answer |     0 |
-| Unattempted      |     0 |
+<td valign="top" width="45%">
+
+<b>Marking Scheme</b>
+
+| Response | Marks |
+|----------|------:|
+| Correct | +2 |
+| Incorrect | 0 |
+| Unattempted | 0 |
+
+**Mode:** CBT
+
+**Duration:** 3 Hours
+
+**Negative Marking:** None
+
+</td>
+</tr>
+</table>
+
+
 
 ---
 
