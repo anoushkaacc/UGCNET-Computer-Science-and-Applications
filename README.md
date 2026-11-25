@@ -23,7 +23,7 @@ This repository contains organized resources for both **Paper I** and **Paper II
 | **Paper II Cheat Sheets** | Unit-wise concise notes covering important concepts, formulas, algorithms, and revision material. | [Open Cheat Sheets](https://github.com/anoushkaacc/UGCNET-Computer-Science-and-Applications/tree/main/cheatsheets) |
 | **Previous Year Questions (PYQs)** | Access free year-wise and subject-wise previous year question papers with solutions and exam-style practice. | [GateOverflow](https://gateoverflow.in/previous-years) • [SamagraCS](https://samagracs.com/nta-ugc-net-subject-wise-previous-year-question-with-solutions/) |
 | **Mock Tests** | Practice full-length mock tests and topic-wise test series from popular learning platforms. | Adda247 • JRFAdda • Physics Wallah (PW) • Testbook |
-| **Handwritten Notes** | Detailed handwritten notes for comprehensive preparation. | *Coming Soon* |
+
 
 ### Paper II Cheat Sheets
 
